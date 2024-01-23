@@ -1,0 +1,132 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: rgb(173, 216, 230);
+    height: 50px;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 5px gray;
+    }
+    .left{
+        margin-left: 40px;
+        color: white;
+        
+    }
+    .right{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 70px;
+    }
+   
+    
+    .icon1{
+        width: 20px;
+    }
+    .icon1:hover{
+        opacity: 50%;
+    }
+    .body{
+        display: flex;
+        justify-content: center;
+      
+      
+    }
+
+    .login{
+        background-color: rgba(173, 216, 230, 0.918);
+        height: 400px;
+        width: 400px;
+        box-shadow: 1px 2px 5px gray;
+
+    }
+
+    .info1{
+        margin-top: 10px;
+    }
+
+  
+.maindiv{
+   
+    display: flex;
+    justify-content: center;
+   align-items: center;
+   
+   margin-left: 40px;
+   height: 700px;
+   
+ 
+    
+}
+
+.submain{
+    height: 400px;
+    width: 350px;
+    background-color: rgb(173, 216, 230);
+    margin-top: 70px;
+    border-radius: 10px;
+   
+    border: 1px rgb(138, 181, 196);
+border-style: solid;
+display: flex;
+justify-content: center;
+
+
+
+}
+   
+   
+  .input{
+height: 300px;
+width: 280px;
+display: grid;
+grid-template-columns: 1fr;
+margin-top: 40px;
+
+  }
+
+    
+  .tt{
+    width: 270px;
+    height: 40px;
+   border-radius: 10px;
+   outline:none;
+   border:solid 1px;
+   border-color: rgb(138, 181, 196);
+  }
+.inputfield{
+ color: rgb(56, 123, 181);
+}
+
+.button{
+    color:rgb(56, 123, 181);
+    width: 270px;
+    height: 40px;
+    border-style: solid;
+   border:1px rgb(0, 0, 0);
+   border-radius: 10px;
+   box-shadow: 1px 1px 1px .08px gray;
+   outline:none;
+}
+
+.button:hover{
+background-color:rgb(56, 123, 181);
+color: white;
+transition: .30s;
+
+}
+
+.footer{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 80%;
+    bottom: 0%;
+ background-color: lightblue;
+ box-shadow: 1px 2px 5px gray;
+}

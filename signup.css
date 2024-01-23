@@ -1,0 +1,184 @@
+body{
+    margin: 0;
+}
+.header{
+    background-color: rgb(173, 216, 230);
+    height: 50px;
+    left: 0%;
+    right: 0%;
+    position: fixed;
+    display: flex;
+   
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1px 2px 5px;
+    }
+    .left{
+        margin-left: 40px;
+        color: white;
+        
+    }
+    .right{
+        width: 300px;
+        display: flex;
+        justify-content: space-between;
+        margin-right: 70px;
+    }
+   
+    
+    .icon1{
+        width: 20px;
+    }
+    .icon1:hover{
+        opacity: 50%;
+    }
+
+      
+.maindiv{
+   
+    display: flex;
+    justify-content: center;
+    margin-left: 50px;
+    
+}
+
+.submain{
+    height: 700px;
+    width: 600px;
+    background-color: rgba(173, 216, 230, 0.664);
+    margin-top: 70px;
+    border-radius: 10px;
+   
+    border: 1px rgb(138, 181, 196);
+border-style: solid;
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+
+}
+   
+   
+  .input{
+height: 500px;
+width: 568px;
+display: grid;
+grid-template-columns: 1fr;
+margin-top: 40px;
+
+
+  }
+
+    
+  .tt{
+    width: 270px;
+    height: 40px;
+   border-radius: 10px;
+   outline:none;
+   border:solid 1px;
+   border-color: rgb(138, 181, 196);
+   text-align: center;
+  }
+.inputfield{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+ color: rgb(56, 123, 181);
+}
+
+.button{
+    color:rgb(56, 123, 181);
+    width: 270px;
+    height: 40px;
+    border-style: solid;
+   border:1px rgb(0, 0, 0);
+   border-radius: 10px;
+   box-shadow: 1px 1px 1px .08px gray;
+   outline:none;
+}
+
+.button:hover{
+background-color:rgb(56, 123, 181);
+color: white;
+transition: .30s;
+
+}
+.right_sidebar{
+    background-color: lightblue;
+    position: fixed;
+    left: 0%;
+    right: 85%;
+    top: 52px;
+    bottom:0%;
+   display: none;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes shadow {
+   0% {
+    box-shadow: 1px 1px 3px;
+   } 
+
+   50%{
+    box-shadow: 1px 2px 5px;
+   }
+
+   100%{
+    box-shadow: 1px 1px 1px;
+   }
+}
+.divided{
+    position: absolute;
+   
+  
+    display: flex;
+    flex-direction:row;
+    transform: scale(.8);
+    justify-content: space-between;
+    row-gap: 100px;
+}
+
+.leftpart{
+    display: flex; justify-content:center;
+}
+
+.text{
+    text-decoration: none;
+     color:rgb(196, 110, 110)
+}
+
+.text:hover{
+    opacity: 90%;
+    color: white;
+    transition: 300ms;
+}
+
+
+.footer{
+    position: fixed;
+    left: 0%;
+    right: 0%;
+    top: 80%;
+    bottom: 0%;
+ background-color: lightblue;
+ box-shadow: 1px 2px 5px gray;
+}
+
+.signinButton{
+background-color: rgb(56, 123, 181);
+width: 150px;
+height: 40px;
+border-radius: 20px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.accediButton:hover{
+opacity: 90%;
+
+}

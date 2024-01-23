@@ -1,0 +1,128 @@
+body{
+    margin: 0;
+}
+/*header starts*/
+.header{
+background-color: rgb(173, 216, 230);
+height: 50px;
+left: 0%;
+right: 0%;
+position: fixed;
+display: flex;
+justify-content: space-between;
+align-items: center;
+animation-name: shadow;
+animation-duration: 4s;
+animation-iteration-count: infinite;
+
+
+}
+.left{
+    margin-left: 40px;
+    color: white;
+    
+}
+.right{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+}
+
+.icon1{
+    width: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.icon1:hover{
+    opacity: 50%;
+}
+/*header ends*/
+
+/*body starts*/
+.body{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: center;
+
+}
+.logo_img{
+    margin-top: 35px;
+}
+
+.logo_img:hover{
+    opacity: 50%;
+}
+.content1{
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 52px;
+    display: grid; 
+    justify-content: center;
+   
+}
+.content2{
+  
+    height: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.content3{
+   
+    height: 500px;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.right_sidebar{
+    background-color: lightblue;
+    position: fixed;
+    left: 0%;
+    right: 85%;
+    top: 52px;
+    bottom:0%;
+   display: none;
+    animation-name: shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes shadow {
+   0% {
+    box-shadow: 1px 1px 3px;
+   } 
+
+   50%{
+    box-shadow: 1px 2px 5px;
+   }
+
+   100%{
+    box-shadow: 1px 1px 1px;
+   }
+}
+
+/*body ends*/
+
+
+
+.footer{
+    
+}
+
+.text{
+    text-decoration: none;
+     color:rgb(196, 110, 110)
+}
+
+.text:hover{
+    opacity: 90%;
+    color: white;
+    transition: 300ms;
+}
+
+
+
